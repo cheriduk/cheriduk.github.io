@@ -327,6 +327,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2020/08/20/hello-world/",
+  owner: '26849335',
+  repo: 'http://github.com/cheriduk/cheriduk.github.io.git',
+  oauth: {
+    client_id: '26219aa5a535b9aa8cca',
+    client_secret: '4cdfc1c25917dc11239fec3641819ad3f204d67b',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
